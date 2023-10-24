@@ -52,7 +52,7 @@ public class Snapdeal_Site {
 		driver.findElement(By.xpath("//button[@id='userSignup']")).click();
 
 
-		// Verify if login was successful (you can change the condition based on the actual SnapDeal webSite)
+		// Verify if login was successful (If the Search Box is Displayed for Search a product then print Login successful in the console)
 		boolean isLoggedIn = driver.findElement(By.xpath("//input[@name='keyword']")).isDisplayed();
 
 
